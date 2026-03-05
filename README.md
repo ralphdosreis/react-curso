@@ -41,4 +41,4 @@ Cada pasta dentro deste repositório pode conter um exercício específico. Para
 
 1. Clone o repositório:
    ```bash
-   git clone [https://github.com/seu-usuario/nome-do-repositorio.git](https://github.com/seu-usuario/nome-do-repositorio.git)
+   git clone https://github.com/ralphdosreis/react-curso
