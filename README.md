@@ -42,3 +42,15 @@ Cada pasta dentro deste repositório pode conter um exercício específico. Para
 1. Clone o repositório:
    ```bash
    git clone https://github.com/ralphdosreis/react-curso
+   
+2. Entre na pasta do projeto:
+   ```bash
+   cd nome-da-pasta
+   
+3. Instale as dependências:
+   ```bash
+   npm install
+   
+4. Inicie o servidor de desenvolvimento:
+   ```bash
+   npm run dev
