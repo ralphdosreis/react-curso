@@ -52,7 +52,7 @@ Abaixo estão os conceitos que já explorei ou estou explorando atualmente:
 
 1.  Clone o repositório:
     ```bash
-    git clone https://github.com/ralphdosreis/react-curso
+    git clone https://github.com/ralphdosreis/react-curso.git
     ```
 2.  Entre na pasta do projeto desejado:
     ```bash
