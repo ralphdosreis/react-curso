@@ -5,20 +5,19 @@ const App = () => {
   const [items, setItems] = React.useState(['Item 1']);
 
   function handleClick() {
-    const novoValor = contar + 1;
-    setContar(novoValor);
-    setItems([...items, `Item ${novoValor}`]);
+    setContar((contar) => {
+      return contar + 1;
+    });
+    setItems((items) => [...items, 'Item ' + (contar + 1)]);
   }
 
   return (
-    <>
-      <ul>
-        {items.map((item) => (
-          <li key={item}>{item}</li>
-        ))}
-      </ul>
+    <div>
+      {items.map((item) => (
+        <li key={item}>{item}</li>
+      ))}
       <button onClick={handleClick}>{contar}</button>
-    </>
+    </div>
   );
 };
 
